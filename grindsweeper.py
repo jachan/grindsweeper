@@ -5,7 +5,7 @@ height = 16
 length = 32
 mines = 99
 board = [[0 for y in range(length)] for x in range(height)]
-spritePath = "/Users/johnchan/Github/grindsweeper/tilesprites/"
+spritePath = "tilesprites/"
 
 class Application(tk.Frame):
     def __init__(self, master=None):
